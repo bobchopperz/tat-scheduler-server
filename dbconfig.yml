@@ -1,10 +1,10 @@
 # Konfigurasi untuk lingkungan development
 development:
   type: 'mysql'
-  host: 'localhost'
+  host: 'semogajayastore.my.id'
   port: 3306
-  username: 'your_username'
-  password: 'your_password'
-  database: 'your_database'
+  username: 'semogaj2_LIS'
+  password: 'HafizhBobby'
+  database: 'semogaj2_tatLIS'
   entities: ['dist/**/*.entity{.ts,.js}']
   synchronize: true # Set ke false di production!

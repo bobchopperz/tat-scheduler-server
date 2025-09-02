@@ -5,7 +5,8 @@
 
 #db password
 configuration.txt
-#dbconfig.yml
+dbconfig.yml
+#.env
 
 # Logs
 logs
