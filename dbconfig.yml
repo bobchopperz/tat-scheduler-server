@@ -1,0 +1,12 @@
+# Konfigurasi Database
+database:
+  type: mysql
+  host: semogajayastore.my.id
+  port: 3306
+  username: semogaj2_LIS
+  password: HafizhBobby
+  database: semogaj2_tatLIS
+
+# Konfigurasi untuk Webhook ke Frontend
+webhook:
+  url: 'http://localhost:3001/api/webhook/tat-update' # Ganti dengan URL endpoint di frontend Anda
