@@ -25,9 +25,9 @@ import { ScheduleModule } from '@nestjs/schedule';
                 username: configService.get<string>('DB_USERNAME'),
                 password: configService.get<string>('DB_PASSWORD'),
                 database: configService.get<string>('DB_DATABASE'),
-                entities: [__dirname + '/../**/*.entity{.ts,.js}'],
-                // Di development bisa true, tapi pastikan false di production
-                synchronize: process.env.NODE_ENV !== 'production',
+
+                autoLoadEntities : true,
+                synchronize: true, // selama development untuk membuat auto=create table
             }),
         }),
 
